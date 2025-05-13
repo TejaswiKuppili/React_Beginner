@@ -1,0 +1,21 @@
+li{
+  list-style: none;
+}
+
+.App {
+  text-align: center;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container > li{
+  border: 1px solid black;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  border-radius: 5px;
+  background-color: #f0f0f0 ;
+}

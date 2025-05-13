@@ -1,0 +1,15 @@
+.dashboard {
+    padding: 2rem;
+    text-align: center;
+}
+
+.dashboard nav {
+    margin-bottom: 1rem;
+}
+
+.dashboard a {
+    margin: 0 1rem;
+    text-decoration: underline;
+    color: #0077cc;
+    font-weight: bold;
+}

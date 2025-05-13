@@ -1,0 +1,69 @@
+.App {
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f5f7fa;
+  padding: 40px;
+}
+
+.user-container {
+  background-color: white;
+  padding: 2rem;
+  max-width: 600px;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background-color: #f0f4ff;
+  margin-bottom: 10px;
+  padding: 12px;
+  border-radius: 6px;
+}
+
+.status {
+  text-align: center;
+  font-size: 1.2rem;
+  margin-top: 50px;
+}
+
+.status.error {
+  color: red;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.form-container input {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.form-container button {
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+.form-container button:disabled {
+  background-color: #aaa;
+}

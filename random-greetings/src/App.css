@@ -1,0 +1,7 @@
+.greeting, .message{
+  font-size: 6rem;
+  color: #333;
+  text-align: center;
+  margin-top: 20px;
+  background-color:bisque;
+}
